@@ -14,7 +14,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
-                                    <a href="{{ route('dashboard') }}">Dashboard</a>
+                                    <a href="{{ route('home.dashboard') }}">Dashboard</a>
                                 </li>
                                 <li class="breadcrumb-item">
                                     <a href="{{ route('roles.index') }}">Roles</a>
