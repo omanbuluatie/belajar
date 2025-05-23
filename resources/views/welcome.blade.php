@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdurrahman Al-Amin - Web Developer & Tech Leader</title>
+    <title>Abdurrahman Al-Amin - Pengembang Web & Pemimpin Teknologi</title>
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
+
 <body>
     <div class="bg-animation"></div>
 
@@ -13,11 +15,11 @@
         <div class="nav-container">
             <a href="#" class="logo">AAB</a>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Kontak</a></li>
             </ul>
         </div>
     </nav>
@@ -25,28 +27,28 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1 class="hero-title">Abdurrahman Al-Amin</h1>
-            <p class="hero-subtitle">Senior Web Developer & Technology Leader</p>
+            <p class="hero-subtitle">Pengembang Web Senior & Pemimpin Teknologi</p>
             <p class="hero-description">
-                Passionate full-stack developer with 15+ years of experience in web development, 
-                government digital transformation, and team leadership. Specialized in PHP, Laravel, 
-                GIS systems, and modern web technologies.
+                Pengembang full-stack berpengalaman lebih dari 15 tahun dalam pengembangan web,
+                transformasi digital pemerintah, dan kepemimpinan tim. Spesialisasi dalam PHP, Laravel,
+                sistem GIS, dan teknologi web modern.
             </p>
             <div class="cta-buttons">
-                <a href="#portfolio" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                <a href="#portfolio" class="btn btn-primary">Lihat Karya Saya</a>
+                <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
             </div>
             <div class="hero-stats">
                 <div class="stat">
-                    <span class="stat-number">15+</span>
-                    <span class="stat-label">Years Experience</span>
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Tahun Pengalaman</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number">50+</span>
-                    <span class="stat-label">Projects Completed</span>
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Proyek Selesai</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number">5</span>
-                    <span class="stat-label">Leadership Roles</span>
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Peran Kepemimpinan</span>
                 </div>
             </div>
         </div>
@@ -54,11 +56,13 @@
 
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title fade-in">About Me</h2>
+            <h2 class="section-title fade-in">Tentang Saya</h2>
             <div class="about-grid">
                 <div class="about-image fade-in">
                     <div class="profile-card">
-                        <div class="avatar">AA</div>
+                        <div class="avatar">
+                            <img src="{{asset('/images/mypic.jpg')}}" alt="">
+                        </div>
                         <div class="profile-info">
                             <h3>Abdurrahman Al-Amin Buluatie</h3>
                             <p>S.Kom, M.Eng</p>
@@ -69,37 +73,37 @@
                     </div>
                 </div>
                 <div class="about-content fade-in">
-                    <h3>Transforming Ideas into Digital Solutions</h3>
+                    <h3>Mengubah Ide Menjadi Solusi Digital</h3>
                     <p>
-                        With a Master's degree in Engineering from Universitas Gadjah Mada and over 15 years 
-                        of experience in web development and government technology, I specialize in creating 
-                        innovative digital solutions that drive organizational transformation.
+                        Dengan gelar Magister Teknik dari Universitas Gadjah Mada dan pengalaman lebih dari 10 tahun
+                        dalam pengembangan web dan teknologi pemerintah, saya mengkhususkan diri dalam menciptakan
+                        solusi digital inovatif yang mendorong transformasi organisasi.
                     </p>
                     <p>
-                        Currently serving as Head of Population Information Management at the Department of 
-                        Population and Civil Registration of Jayawijaya Regency, I lead digital initiatives 
-                        that serve thousands of citizens while mentoring the next generation of developers.
+                        Saat ini menjabat sebagai Kepala Bidang Pengelolaan Informasi Kependudukan di Dinas
+                        Kependudukan dan Pencatatan Sipil Kabupaten Jayawijaya, saya memimpin inisiatif digital
+                        yang melayani ribuan warga sekaligus membimbing generasi pengembang berikutnya.
                     </p>
                     <div class="skills-grid">
                         <div class="skill-item">
                             <div class="skill-icon">🌐</div>
-                            <h4>Web Development</h4>
+                            <h4>Pengembangan Web</h4>
                             <p>PHP, Laravel, JavaScript</p>
                         </div>
                         <div class="skill-item">
                             <div class="skill-icon">🗺️</div>
-                            <h4>GIS Systems</h4>
+                            <h4>Sistem GIS</h4>
                             <p>ArcGIS, WebGIS, QGIS</p>
                         </div>
                         <div class="skill-item">
                             <div class="skill-icon">🗄️</div>
-                            <h4>Database</h4>
+                            <h4>Basis Data</h4>
                             <p>MySQL, PostgreSQL, Oracle</p>
                         </div>
                         <div class="skill-item">
                             <div class="skill-icon">👥</div>
-                            <h4>Leadership</h4>
-                            <p>Team Management, Training</p>
+                            <h4>Kepemimpinan</h4>
+                            <p>Manajemen Tim, Pelatihan</p>
                         </div>
                     </div>
                 </div>
@@ -109,49 +113,49 @@
 
     <section id="experience" class="experience">
         <div class="container">
-            <h2 class="section-title fade-in">Professional Journey</h2>
+            <h2 class="section-title fade-in">Perjalanan Profesional</h2>
             <div class="timeline">
                 <div class="timeline-item fade-in">
                     <div class="timeline-content">
-                        <div class="timeline-year">2024 - Present</div>
-                        <h3 class="timeline-title">Head of Population Information Management</h3>
+                        <div class="timeline-year">2024 - Sekarang</div>
+                        <h3 class="timeline-title">Kepala Bidang Pengelolaan Informasi Kependudukan</h3>
                         <div class="timeline-company">Dinas Kependudukan dan Pencatatan Sipil Kabupaten Jayawijaya</div>
                         <p class="timeline-description">
-                            Leading digital transformation initiatives for population administration systems. 
-                            Managing data processing, system architecture, and team development.
+                            Memimpin inisiatif transformasi digital untuk sistem administrasi kependudukan.
+                            Mengelola pengolahan data, arsitektur sistem, dan pengembangan tim.
                         </p>
                     </div>
                 </div>
                 <div class="timeline-item fade-in">
                     <div class="timeline-content">
                         <div class="timeline-year">2024</div>
-                        <h3 class="timeline-title">Expert Team Member - SPBE Architecture</h3>
+                        <h3 class="timeline-title">Anggota Tim Ahli - Arsitektur SPBE</h3>
                         <div class="timeline-company">Kementerian Perhubungan, Parekraf, dan Kominfo RI</div>
                         <p class="timeline-description">
-                            Contributing to national-level digital government architecture planning and 
-                            implementation strategies for multiple ministries.
+                            Berkontribusi dalam perencanaan arsitektur pemerintahan digital tingkat nasional dan
+                            strategi implementasi untuk beberapa kementerian.
                         </p>
                     </div>
                 </div>
                 <div class="timeline-item fade-in">
                     <div class="timeline-content">
                         <div class="timeline-year">2017 - 2023</div>
-                        <h3 class="timeline-title">Head of Population Data Processing</h3>
+                        <h3 class="timeline-title">Kepala Seksi Pengolahan Data Kependudukan</h3>
                         <div class="timeline-company">Dinas Kependudukan dan Pencatatan Sipil Kabupaten Jayawijaya</div>
                         <p class="timeline-description">
-                            Managed comprehensive population data systems, implemented new technologies, 
-                            and streamlined administrative processes for improved citizen services.
+                            Mengelola sistem data kependudukan komprehensif, menerapkan teknologi baru,
+                            dan menyederhanakan proses administrasi untuk layanan warga yang lebih baik.
                         </p>
                     </div>
                 </div>
                 <div class="timeline-item fade-in">
                     <div class="timeline-content">
                         <div class="timeline-year">2014 - 2016</div>
-                        <h3 class="timeline-title">Web Developer & Programming Instructor</h3>
-                        <div class="timeline-company">Multiple Organizations</div>
+                        <h3 class="timeline-title">Pengembang Web & Instruktur Pemrograman</h3>
+                        <div class="timeline-company">Berbagai Organisasi</div>
                         <p class="timeline-description">
-                            Developed government websites, served as programming assistant at IST AKPRIND, 
-                            and contributed to WebGIS development for BAPPEDA Kabupaten Jayawijaya.
+                            Mengembangkan website pemerintah, menjadi asisten pemrograman di IST AKPRIND,
+                            dan berkontribusi pada pengembangan WebGIS untuk BAPPEDA Kabupaten Jayawijaya.
                         </p>
                     </div>
                 </div>
@@ -161,15 +165,15 @@
 
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <h2 class="section-title fade-in">Featured Projects</h2>
+            <h2 class="section-title fade-in">Proyek Unggulan</h2>
             <div class="portfolio-grid">
                 <div class="portfolio-item fade-in">
                     <div class="portfolio-image">🌐</div>
                     <div class="portfolio-content">
-                        <h3 class="portfolio-title">Kabupaten Jayawijaya Official Website</h3>
+                        <h3 class="portfolio-title">Website Resmi Kabupaten Jayawijaya</h3>
                         <p class="portfolio-description">
-                            Complete government website solution featuring news management, public services 
-                            information, and citizen engagement platforms. Built with modern PHP architecture.
+                            Solusi lengkap website pemerintah dengan fitur manajemen berita, informasi
+                            layanan publik, dan platform keterlibatan warga. Dibangun dengan arsitektur PHP modern.
                         </p>
                         <div class="portfolio-tech">
                             <span class="tech-tag">PHP</span>
@@ -182,10 +186,10 @@
                 <div class="portfolio-item fade-in">
                     <div class="portfolio-image">📊</div>
                     <div class="portfolio-content">
-                        <h3 class="portfolio-title">Employee Performance Management System</h3>
+                        <h3 class="portfolio-title">Sistem Manajemen Kinerja Pegawai</h3>
                         <p class="portfolio-description">
-                            Comprehensive system for tracking, evaluating, and reporting employee performance 
-                            with automated workflows and real-time analytics dashboard.
+                            Sistem komprehensif untuk melacak, mengevaluasi, dan melaporkan kinerja pegawai
+                            dengan alur kerja otomatis dan dashboard analitik real-time.
                         </p>
                         <div class="portfolio-tech">
                             <span class="tech-tag">Laravel</span>
@@ -198,10 +202,10 @@
                 <div class="portfolio-item fade-in">
                     <div class="portfolio-image">🗺️</div>
                     <div class="portfolio-content">
-                        <h3 class="portfolio-title">Population Data WebGIS</h3>
+                        <h3 class="portfolio-title">WebGIS Data Kependudukan</h3>
                         <p class="portfolio-description">
-                            Interactive geographic information system for visualizing population data, 
-                            demographic analytics, and administrative boundary management.
+                            Sistem informasi geografis interaktif untuk memvisualisasikan data kependudukan,
+                            analisis demografis, dan manajemen batas administrasi.
                         </p>
                         <div class="portfolio-tech">
                             <span class="tech-tag">ArcGIS</span>
@@ -214,16 +218,16 @@
                 <div class="portfolio-item fade-in">
                     <div class="portfolio-image">📋</div>
                     <div class="portfolio-content">
-                        <h3 class="portfolio-title">Online Civil Registration Services</h3>
+                        <h3 class="portfolio-title">Layanan Pencatatan Sipil Online</h3>
                         <p class="portfolio-description">
-                            Digital transformation of civil registration processes allowing citizens to 
-                            access services online with document tracking and automated notifications.
+                            Transformasi digital proses pencatatan sipil yang memungkinkan warga mengakses
+                            layanan online dengan pelacakan dokumen dan notifikasi otomatis.
                         </p>
                         <div class="portfolio-tech">
                             <span class="tech-tag">PHP</span>
                             <span class="tech-tag">Laravel</span>
                             <span class="tech-tag">MySQL</span>
-                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Integrasi API</span>
                         </div>
                     </div>
                 </div>
@@ -233,10 +237,10 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title fade-in">Let's Work Together</h2>
+            <h2 class="section-title fade-in">Mari Bekerja Sama</h2>
             <p class="fade-in" style="max-width: 600px; margin: 0 auto 3rem; opacity: 0.9;">
-                Ready to bring your ideas to life? I'm always excited to collaborate on innovative 
-                projects and help organizations achieve their digital transformation goals.
+                Siap mewujudkan ide Anda? Saya selalu bersemangat untuk berkolaborasi dalam proyek inovatif
+                dan membantu organisasi mencapai tujuan transformasi digital mereka.
             </p>
             <div class="contact-info">
                 <div class="contact-item fade-in">
@@ -246,18 +250,18 @@
                 </div>
                 <div class="contact-item fade-in">
                     <div class="contact-icon">📱</div>
-                    <h3>Phone</h3>
+                    <h3>Telepon</h3>
                     <p>+62 852 4412 1999</p>
                 </div>
                 <div class="contact-item fade-in">
                     <div class="contact-icon">📍</div>
-                    <h3>Location</h3>
+                    <h3>Lokasi</h3>
                     <p>Wamena, Papua, Indonesia</p>
                 </div>
                 <div class="contact-item fade-in">
                     <div class="contact-icon">💼</div>
-                    <h3>Availability</h3>
-                    <p>Open for freelance & consulting</p>
+                    <h3>Ketersediaan</h3>
+                    <p>Terbuka untuk freelance & konsultasi</p>
                 </div>
             </div>
         </div>
@@ -267,16 +271,18 @@
         <div class="social-links">
             <a href="#" class="social-link">🌐</a>
         </div>
-        <p>&copy; 2024 Abdurrahman Al-Amin Buluatie. All rights reserved.</p>
+        <p>&copy; 2024 Abdurrahman Al-Amin Buluatie. Hak cipta dilindungi.</p>
         <p style="margin-top: 0.5rem; opacity: 0.7; font-size: 0.9rem;">
-            Crafted with passion for digital excellence
+            Dibuat dengan semangat untuk keunggulan digital
         </p>
     </footer>
+
+
 
     <script>
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+            anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
@@ -343,7 +349,9 @@
                     heroObserver.unobserve(entry.target);
                 }
             });
-        }, { threshold: 0.5 });
+        }, {
+            threshold: 0.5
+        });
 
         heroObserver.observe(document.querySelector('.hero'));
 
@@ -352,7 +360,7 @@
             item.addEventListener('mouseenter', function() {
                 this.style.transform = 'translateY(-15px) scale(1.02)';
             });
-            
+
             item.addEventListener('mouseleave', function() {
                 this.style.transform = 'translateY(-10px) scale(1)';
             });
@@ -385,7 +393,7 @@
             item.addEventListener('click', function() {
                 const contactType = this.querySelector('h3').textContent;
                 const contactValue = this.querySelector('p').textContent;
-                
+
                 if (contactType === 'Email') {
                     window.location.href = `mailto:${contactValue}`;
                 } else if (contactType === 'Phone') {
@@ -398,8 +406,8 @@
         window.addEventListener('scroll', function() {
             const scrolled = window.pageYOffset;
             const rate = scrolled * -0.5;
-            
-            document.querySelector('.bg-animation').style.transform = 
+
+            document.querySelector('.bg-animation').style.transform =
                 `translateY(${rate}px)`;
         });
 
@@ -433,7 +441,7 @@
         // Add loading state management
         window.addEventListener('load', function() {
             document.body.classList.add('loaded');
-            
+
             // Add a subtle entrance animation
             setTimeout(() => {
                 document.querySelector('.hero-content').style.opacity = '1';
@@ -496,4 +504,5 @@
         console.log('📧 Contact: omanbuluatie79@gmail.com');
     </script>
 </body>
+
 </html>
