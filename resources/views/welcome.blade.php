@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Web - Dev3709ers</title>
     <link rel="stylesheet" href="{{ asset('css/style_main.css') }}">
-    
+
 </head>
 
 <body>
@@ -76,9 +76,31 @@
                 <div class="about-content fade-in">
                     <h3>Mengubah Ide Menjadi Solusi Digital</h3>
                     <p>
-                        Dengan gelar Magister Teknik dari Universitas Gadjah Mada dan pengalaman lebih dari 10 tahun
-                        dalam pengembangan web dan teknologi di lingkungan pemerintah, saya mengkhususkan diri dalam menciptakan
-                        solusi digital inovatif yang mendorong transformasi organisasi.
+                        Nama saya Abdurrahman Al-Amin Buluatie. Saya lahir di Kabupaten Jayawijaya pada 21 September
+                        1979 dan saat ini berdomisili di Wamena, Papua. Saya bekerja sebagai aparatur sipil negara di
+                        Dinas Kependudukan dan Pencatatan Sipil Kabupaten Jayawijaya, dengan tugas sebagai Plt. Kepala
+                        Bidang Pengelolaan Informasi Administrasi Kependudukan.
+                    </p>
+                    <p>
+
+                        Latar belakang pendidikan saya dimulai dari D3 Teknologi Perkulitan di Yogyakarta, kemudian saya
+                        melanjutkan ke S1 Teknik Informatika di IST AKPRIND Yogyakarta, dan menyelesaikan S2 Teknik di
+                        Universitas Gadjah Mada.
+                    </p>
+                    <p>
+
+                        Selama beberapa tahun terakhir, saya fokus pada pengembangan sistem informasi, khususnya yang
+                        mendukung layanan administrasi kependudukan. Saya juga pernah terlibat sebagai tim teknis dan
+                        tim ahli dalam penyusunan arsitektur SPBE di sejumlah instansi pemerintahan. Selain itu, saya
+                        mengembangkan berbagai aplikasi berbasis web yang digunakan untuk pelayanan publik, baik di
+                        tingkat kabupaten maupun untuk kebutuhan internal dinas.
+                    </p>
+                    <p>
+
+                        Saya percaya bahwa pemanfaatan teknologi informasi secara tepat dapat meningkatkan kualitas
+                        pelayanan publik, khususnya di daerah-daerah yang memiliki tantangan geografis seperti Papua.
+                        Karena itu, saya terus berusaha mengembangkan sistem yang praktis, aman, dan sesuai kebutuhan
+                        masyarakat.
                     </p>
                     <p>
                         Saat ini menjabat sebagai Kepala Bidang Pengelolaan Informasi Kependudukan di Dinas
@@ -121,7 +143,8 @@
                         <h3 class="timeline-title">Kepala Bidang Pengelolaan Informasi Kependudukan</h3>
                         <div class="timeline-company">Dinas Kependudukan dan Pencatatan Sipil Kabupaten Jayawijaya</div>
                         <p class="timeline-description">
-                            Memimpin inisiatif transformasi digital untuk pengelolaan informasi sistem administrasi kependudukan.
+                            Memimpin inisiatif transformasi digital untuk pengelolaan informasi sistem administrasi
+                            kependudukan.
                             Mengelola pengolahan data dan arsitektur sistem.
                         </p>
                     </div>
@@ -154,7 +177,8 @@
                         <h3 class="timeline-title">Pengembang Web & Instruktur Pemrograman</h3>
                         <div class="timeline-company">Berbagai Organisasi</div>
                         <p class="timeline-description">
-                            Mengembangkan website pemerintah dan berkontribusi pada pengembangan WebGIS untuk BAPPEDA Kabupaten Jayawijaya.
+                            Mengembangkan website pemerintah dan berkontribusi pada pengembangan WebGIS untuk BAPPEDA
+                            Kabupaten Jayawijaya.
                         </p>
                     </div>
                 </div>
