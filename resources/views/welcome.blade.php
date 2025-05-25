@@ -76,8 +76,7 @@
                 <div class="about-content fade-in">
                     <h3>Mengubah Ide Menjadi Solusi Digital</h3>
                     <p>
-                        Nama saya Abdurrahman Al-Amin Buluatie. Saya lahir di Kabupaten Jayawijaya pada 21 September
-                        1979 dan saat ini berdomisili di Wamena, Papua. Saya bekerja sebagai aparatur sipil negara di
+                        Nama saya Abdurrahman Al-Amin Buluatie. Saya bekerja sebagai aparatur sipil negara di
                         Dinas Kependudukan dan Pencatatan Sipil Kabupaten Jayawijaya, dengan tugas sebagai Plt. Kepala
                         Bidang Pengelolaan Informasi Administrasi Kependudukan.
                     </p>
